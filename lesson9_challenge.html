@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dog Breeds</title>
+    <style>
+      .breed1 {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        cursor: all-scroll;
+      }
+      h3 {
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+      p {
+        margin-top: 5px;
+        color: grey;
+      }
+      .dog {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 0;
+        padding-right: 0;
+        box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+      }
+      .buy {
+        border: none;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 14px;
+        padding-bottom: 14px;
+        background-color: rgb(0, 110, 255);
+        color: white;
+        border-radius: 8px;
+        cursor: pointer;
+      }
+      .buy:hover {
+        text-decoration: underline;
+      }
+      
+      .rocky {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: center;
+        text-align: center;
+        row-gap: 40px;
+        column-gap: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="rocky">
+      <div class="dog">
+        <div class="image">
+          <img class="breed1" src="German_Shepherd.jpg">
+        </div>
+        <div class="about">
+          <h3>
+            German Shepherd
+          </h3>
+          <p>Breed 1</p>
+          <button class="buy">Buy now</button>
+        </div>
+      </div>
+      <div class="dog">
+        <div class="image">
+          <img class="breed1" src="shih-tzu.jpg">
+        </div>
+        <div class="about">
+          <h3>
+            Shih Tzu
+          </h3>
+          <p>Breed 2</p>
+          <button class="buy">Buy now</button>
+        </div>
+      </div>
+      <div class="dog">
+        <div class="image">
+          <img class="breed1" src="golden_retriever.jpg">
+        </div>
+        <div class="about">
+          <h3>
+            Golden Retriever
+          </h3>
+          <p>Breed 3</p>
+          <button class="buy">Buy now</button>
+        </div>
+      </div>
+      <div class="dog">
+        <div class="image">
+          <img class="breed1" src="maltipoo.jpg">
+        </div>
+        <div class="about">
+          <h3>
+            Maltipoo
+          </h3>
+          <p>Breed 4</p>
+          <button class="buy">Buy now</button>
+        </div>
+      </div>
+      <div class="dog">
+        <div class="image">
+          <img class="breed1" src="maltese.jpg">
+        </div>
+        <div class="about">
+          <h3>
+            Maltese
+          </h3>
+          <p>Breed 5</p>
+          <button class="buy">Buy now</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

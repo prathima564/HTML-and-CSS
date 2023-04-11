@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .design {
+        display: flex;
+        flex-direction: row;
+        background-color: blueviolet;
+        height: 50px;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .left {
+        color: white;
+        padding-left: 20px;
+      }
+      .middle {
+        flex: 1;
+      }
+      .right {
+        padding-right: 20px;
+      }
+      button {
+        color: white;
+        background-color: blueviolet;
+        border-color: white;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        border-style: solid;
+        border-radius: 4px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="design">
+      <div class="left">Home</div>
+      <div class="middle">
+        <input type="text" placeholder="Search">
+      </div>
+      <div class="right"><button>Download</button></div>
+    </div>
+  </body>
+</html>

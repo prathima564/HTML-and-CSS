@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .siz {
+        width: 200px;
+        border-radius: 10px;
+      }
+      .siz1 {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        object-position:left;
+      }
+      .siz2 {
+        width: 24px;
+        height: 24px;
+        border-radius: 100%;
+        object-fit: cover;
+        object-position: right;
+      }
+      .one {
+        width: 200px;
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-family: Tahoma;
+        color: grey;
+        border-radius: 5px;
+        border-color: grey;
+        border-style: solid;
+      }
+      .two {
+        width: 400px;
+        padding-left: 10px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        font-family: Tahoma;
+        color: gray;
+        border: none;
+        border-radius: 18px;
+        box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+      }
+      #pove {
+        vertical-align: middle;
+      }
+      .txt {
+        vertical-align: middle;
+        padding-right: 10px;
+        border: none;
+
+      }
+      .tweet-button {
+  background-color: rgb(21, 134, 232);
+  color: white;
+  border: none;
+  height: 20px;
+  width: 60px;
+  border-radius: 18px;
+  font-weight: bold;
+  font-size: 12px;
+  cursor: pointer;
+  margin-left: 7px;
+  transition: box-shadow 0.15s;
+  vertical-align: middle;
+}
+div {
+  display: inline-block;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+}
+.tweet-button:hover {
+  opacity: 0.7;
+  box-shadow: 10px 10px 10px rgba(0,0,0,0.15);
+}
+
+    </style>
+  </head>
+  <body>
+    <img class="siz" src="images/image6.PNG">
+    <img class="siz1" src="images/image6.PNG">
+    <img class="siz2" src="images/image6.PNG">
+    <p></p>
+    <input class="one" type="text" placeholder="Search">
+    <p></p>
+    <input class="two" type="text" placeholder="Search Google or type a URL">
+    <p></p>
+    <div>
+    <img class="siz2" id="pove" src="images/image6.PNG">
+    <input class="txt" type="text" placeholder="What's happening? ">
+    <button class="tweet-button">Tweet</button>
+  </div>
+  </body>
+</html>
