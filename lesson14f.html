@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lesson 14</title>
+    <style>
+      .cat {
+        height: 40px;
+        border-radius: 100%;
+        width: 40px;
+        object-fit: cover;
+        background-color: white;
+      }
+      .first {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        background-color: rgba(0, 0, 0, 0.637);
+        left: 0;
+        top: 0;
+        bottom: 0;
+        width: 60px;
+        padding-top: 20px;
+        align-items: center;
+      }
+      .middle {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 60px;
+        background-color: grey;
+        width: 200px;
+      }
+      .inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+      }
+      p {
+        padding-top: 0;
+        padding-left: 10px;
+        color: rgb(230,230,230);
+      }
+      
+    </style>
+  </head>
+  <body>
+    <div class="lesson">
+      <div class="first">
+        <img class="cat" src="cat.jpg" alt="">
+        <p></p>
+        <img class="cat" src="icons/channellogo.PNG" alt="">
+        <p></p>
+        <img class="cat" src="icons/belllogo.webp" alt="">
+      </div>
+      <div class="middle">
+        <div class="inner">
+          <p style="
+            color:white;
+            padding-left: 10px;
+            ">INFO</p>
+          <p style="
+          padding-right: 10px;
+          font-size: 20px;
+          font-weight: bold;
+          color: rgb(230, 230, 230);
+          ">+</p>
+        </div>
+        <p># new-videos</p>
+        <p># updates</p>
+        <p># faq</p>
+      </div>
+    </div>
+  </body>
+</html>

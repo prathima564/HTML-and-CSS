@@ -5,17 +5,14 @@
       .design {
         display: flex;
         flex-direction: row;
-        background-color: blueviolet;
         height: 50px;
         align-items: center;
         justify-content: space-between;
+        background-color: blueviolet;
       }
       .left {
         color: white;
         padding-left: 20px;
-      }
-      .middle {
-        flex: 1;
       }
       .right {
         padding-right: 20px;
@@ -29,13 +26,19 @@
         border-style: solid;
         border-radius: 4px;
       }
+      .search {
+        border-radius: 20px;
+        border: none;
+        
+        padding-right: 500px;
+      }
     </style>
   </head>
   <body>
     <div class="design">
       <div class="left">Home</div>
       <div class="middle">
-        <input type="text" placeholder="Search">
+        <input class="search" type="text" placeholder="Search">
       </div>
       <div class="right"><button>Download</button></div>
     </div>
